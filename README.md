@@ -77,7 +77,6 @@ Screenshot tersedia pada folder `uts/screenshots/`:
 
 ## File APK
 
-Tidak disertakan. Jika diminta dosen, file APK dapat dibuat melalui
 **Build → Build App Bundle(s) / APK(s) → Build APK(s)** di Android Studio.
 
 ## Referensi
