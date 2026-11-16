@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ilustrasi mesin cuci untuk splash dan header Login -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Badan mesin cuci -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M40,20H160A12,12 0,0 1 172,32V168A12,12 0,0 1 160,180H40A12,12 0,0 1 28,168V32A12,12 0,0 1 40,20Z" />
+
+    <!-- Panel atas -->
+    <path
+        android:fillColor="@color/light_blue"
+        android:pathData="M52,28H148V44H52Z" />
+
+    <!-- Tombol kecil di panel atas -->
+    <path
+        android:fillColor="@color/navy"
+        android:pathData="M163,35A5,5 0,1 1 153,35A5,5 0,1 1 163,35Z" />
+
+    <!-- Pintu luar -->
+    <path
+        android:fillColor="@color/light_blue"
+        android:pathData="M150,108A50,50 0,1 1 50,108A50,50 0,1 1 150,108Z" />
+
+    <!-- Pintu dalam berisi air -->
+    <path
+        android:fillColor="@color/navy"
+        android:pathData="M132,108A32,32 0,1 1 68,108A32,32 0,1 1 132,108Z" />
+
+    <!-- Gelembung cucian -->
+    <path
+        android:fillColor="@color/white"
+        android:fillAlpha="0.7"
+        android:pathData="M100,108A8,8 0,1 1 84,108A8,8 0,1 1 100,108Z" />
+    <path
+        android:fillColor="@color/white"
+        android:fillAlpha="0.7"
+        android:pathData="M124,92A5,5 0,1 1 114,92A5,5 0,1 1 124,92Z" />
+</vector>

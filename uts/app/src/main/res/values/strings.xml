@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LaundryApp</string>
+
+    <!-- Login -->
+    <string name="login_header_subtitle">Manajemen Laundry Sederhana</string>
+    <string name="login_title">Selamat Datang</string>
+    <string name="login_subtitle">Silakan masuk untuk mengelola pesanan</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Masuk</string>
+    <string name="login_demo">Akun demo: admin / admin123</string>
+    <string name="error_username_kosong">Username tidak boleh kosong</string>
+    <string name="error_password_kosong">Password tidak boleh kosong</string>
+    <string name="error_login_gagal">Username atau password salah</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Selamat datang, Admin</string>
+    <string name="dashboard_total">Total Pesanan</string>
+    <string name="dashboard_menunggu">Menunggu</string>
+    <string name="dashboard_diproses">Diproses</string>
+    <string name="dashboard_selesai">Selesai</string>
+    <string name="dashboard_diambil">Sudah Diambil</string>
+    <string name="dashboard_recent">Pesanan Terbaru</string>
+    <string name="dashboard_lihat_semua">Lihat Semua</string>
+    <string name="dashboard_empty">Belum ada pesanan. Tekan tombol + untuk menambah pesanan.</string>
+
+    <!-- Daftar pesanan -->
+    <string name="list_title">Daftar Pesanan</string>
+    <string name="list_search_hint">Cari nama atau ID pesanan</string>
+    <string name="list_jumlah">%1$d pesanan ditemukan</string>
+    <string name="list_empty">Tidak ada pesanan yang cocok dengan pencarian atau filter.</string>
+    <string name="filter_semua">Semua</string>
+
+    <!-- Tambah dan edit pesanan -->
+    <string name="add_title">Tambah Pesanan</string>
+    <string name="add_nama">Nama pelanggan</string>
+    <string name="add_telepon">Nomor telepon</string>
+    <string name="add_jenis">Jenis laundry</string>
+    <string name="add_berat">Berat cucian (kg)</string>
+    <string name="add_status">Status</string>
+    <string name="add_catatan">Catatan (opsional)</string>
+    <string name="add_tanggal_masuk">Tanggal masuk</string>
+    <string name="add_ringkasan">Ringkasan Biaya</string>
+    <string name="add_harga_per_kg">Harga per kg</string>
+    <string name="add_estimasi">Estimasi selesai</string>
+    <string name="add_total">Total harga</string>
+    <string name="add_simpan">Simpan Pesanan</string>
+    <string name="add_sukses">Pesanan berhasil disimpan</string>
+    <string name="add_gagal">Gagal menyimpan pesanan</string>
+    <string name="edit_title">Edit Pesanan</string>
+    <string name="edit_simpan">Simpan Perubahan</string>
+    <string name="edit_sukses">Perubahan berhasil disimpan</string>
+    <string name="edit_gagal">Gagal menyimpan perubahan</string>
+    <string name="error_nama_kosong">Nama pelanggan tidak boleh kosong</string>
+    <string name="error_telepon_tidak_valid">Nomor telepon harus berupa angka, minimal 8 digit</string>
+    <string name="error_jenis_kosong">Pilih jenis laundry</string>
+    <string name="error_berat_tidak_valid">Berat harus lebih dari 0</string>
+
+    <!-- Detail pesanan -->
+    <string name="detail_title">Detail Pesanan</string>
+    <string name="detail_telepon">Nomor telepon</string>
+    <string name="detail_jenis">Jenis laundry</string>
+    <string name="detail_berat">Berat</string>
+    <string name="detail_harga_per_kg">Harga per kg</string>
+    <string name="detail_total">Total biaya</string>
+    <string name="detail_tanggal_masuk">Tanggal masuk</string>
+    <string name="detail_estimasi">Estimasi selesai</string>
+    <string name="detail_catatan">Catatan</string>
+    <string name="detail_ubah_status">Ubah Status</string>
+    <string name="detail_edit">Edit</string>
+    <string name="detail_hapus">Hapus</string>
+    <string name="detail_kembali">Kembali</string>
+    <string name="ubah_status_judul">Ubah status pesanan</string>
+    <string name="status_berhasil">Status diubah menjadi %1$s</string>
+    <string name="hapus_judul">Hapus pesanan?</string>
+    <string name="hapus_pesan">Data pesanan ini akan dihapus permanen dan tidak bisa dikembalikan.</string>
+    <string name="hapus_ya">Hapus</string>
+    <string name="hapus_berhasil">Pesanan berhasil dihapus</string>
+    <string name="batal">Batal</string>
+    <string name="pesanan_tidak_ditemukan">Pesanan tidak ditemukan</string>
+
+    <!-- Deskripsi aksesibilitas dan pesan umum -->
+    <string name="content_logout">Keluar</string>
+    <string name="content_kembali">Kembali</string>
+    <string name="content_tambah">Tambah pesanan</string>
+    <string name="toast_belum_tersedia">Fitur ini dihubungkan pada tahap berikutnya</string>
+</resources>
